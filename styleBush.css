@@ -1,0 +1,252 @@
+#wrapper {
+    /* border: 1px solid black; */
+    width: 90%;
+    padding-bottom: 20px;
+    margin: 30px auto;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px 0px rgba(59, 59, 56, 0.4);
+    position: relative;
+    z-index: 100;
+    background-color: #cb011b;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#left {
+    margin-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#main {
+    margin-top: 0;
+    position: relative;
+}
+
+
+#left img {
+    width: 100%;
+}
+
+#right {
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+    padding: 15px;
+    position: relative;
+}
+
+#right section h1 {
+    display: inline-block;
+    font-style: italic;
+    color: white;
+    font-family: lato;
+    letter-spacing: 5px;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.7);
+}
+
+#right section #fontAwe i {
+    display: inline-block;
+    color: yellow;
+    letter-spacing: 5px;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.7);
+
+}
+
+#right section #fontAwe {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    padding-left: 10px;
+}
+
+#right aside p {
+    color: white;
+    font-family: lato;
+    line-height: 25px;
+}
+
+#right aside ul {
+    padding-left: 14px;
+
+}
+
+#right aside ul li {
+    padding-left: 0;
+    line-height: 25px;
+
+}
+
+
+#right aside ul li:nth-child(3) {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+#right aside ul li:nth-child(3) a {
+    color: white;
+    text-transform: capitalize;
+}
+
+#right aside .product-select:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+#right aside #size {
+    /* padding: 5px 10px 5px 10px; */
+    color: white;
+    border: none;
+    background-color: #cb011b;
+    float: left;
+}
+
+#right aside i {
+    color: white;
+    float: left;
+}
+
+#right aside .price-purchase {
+    width: 100%;
+    display: inline-block;
+}
+
+#right aside .price-purchase button {
+    width: 40%;
+    display: inline-block;
+}
+
+#right aside .price-purchase button span {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+
+#right aside .price-purchase h3 {
+    width: 30%;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#right aside button {
+    margin-top: 15px;
+    display: block;
+    background-color: #cb011b;
+    border: 1px solid white;
+    padding: 5px 20px 5px 20px;
+}
+
+body {
+    background-color: #cb011b;
+    font-family: lato;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    letter-spacing: 35px;
+    font-size: 60px;
+    position: relative;
+    font-weight: bold;
+    font-family: lato;
+    bottom: 90px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.7);
+    /* text-shadow: 7px 5px 5px 0px rgba(59, 59, 56, 0.3); */
+}
+
+#main nav ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 5px;
+    display: inline-block;
+}
+
+#logo {
+    position: absolute;
+    width: 100%;
+
+}
+
+#logo ul {
+    list-style-type: none;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    color: white;
+}
+
+#logo ul li {
+    margin-top: 20px;
+}
+
+#main nav .right {
+
+    margin-left: 10px;
+}
+
+#main nav {
+    color: #cb011b;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    /* background-color: rgba(153, 153, 153, 0.7); */
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 60px;
+}
+
+#main nav .active {
+
+    background-color: rgba(36, 33, 33, 0.1);
+    padding: 20px 10px 20px 10px;
+    height: 20px;
+    margin-top: 0;
+
+}
+
+#main nav:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#main:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#logo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
